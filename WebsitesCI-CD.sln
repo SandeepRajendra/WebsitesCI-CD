@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1062
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Website1", "WebsitesCI-CD\Website1.csproj", "{0555B1C2-AA79-4547-8953-7234F97B4207}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Website2", "Website2\Website2.csproj", "{ECA6B62F-F398-4F3C-BBC7-5DEC6B497829}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0555B1C2-AA79-4547-8953-7234F97B4207}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0555B1C2-AA79-4547-8953-7234F97B4207}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0555B1C2-AA79-4547-8953-7234F97B4207}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0555B1C2-AA79-4547-8953-7234F97B4207}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECA6B62F-F398-4F3C-BBC7-5DEC6B497829}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECA6B62F-F398-4F3C-BBC7-5DEC6B497829}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECA6B62F-F398-4F3C-BBC7-5DEC6B497829}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECA6B62F-F398-4F3C-BBC7-5DEC6B497829}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0B2EFDBD-3526-488F-A69F-A3F775FB33BF}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://dev.azure.com/sandeep7979
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Website2\\Website2.csproj
+		SccProjectName1 = Website2
+		SccLocalPath1 = Website2
+		SccProjectUniqueName2 = WebsitesCI-CD\\Website1.csproj
+		SccProjectName2 = WebsitesCI-CD
+		SccLocalPath2 = WebsitesCI-CD
+	EndGlobalSection
+EndGlobal
